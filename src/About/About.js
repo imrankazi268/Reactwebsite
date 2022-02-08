@@ -12,14 +12,15 @@ const [myList, setMyList] = useState([
 	"999XXXXXXX",
 	"8575XXXXXX",
 	"99XXXXXXXX",
+    "977XXXXXXX"
 ]);
 
 const handleChange = (event, newValue) => {
 	if (newValue == 0) {
-	setMyList(["999XXXXXXX", "8575XXXXXX", "99XXXXXXXX"]);
+	setMyList(["9773869980", "9773869981", "9773869982", "9773869983"]);
 	setValue(0);
 	} else {
-	setMyList(["Contact One", "Contact Two", "Contact Three"]);
+	setMyList(["Contact One", "Contact Two", "Contact Three", "Contact Four"]);
 	setValue(1);
 	}
 };
@@ -58,6 +59,7 @@ return (
 		<li>{myList[0]}</li>
 		<li>{myList[1]}</li>
 		<li>{myList[2]}</li>
+        <li>{myList[3]}</li>
 		</ul>
 	</Paper>
 	</div>
