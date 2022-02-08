@@ -27,7 +27,9 @@ const handleChange = (event, newValue) => {
 return (
 	<div
 	style={{
-		marginLeft: "40%",
+        alignContent:'center',
+		alignSelf:'center',
+        
 	}}
 	>
 	<h2>
@@ -38,6 +40,7 @@ return (
 		style={{
 		flexGrow: 1,
 		maxWidth: 500,
+        alignSelf:'center'
 		}}
 	>
 		<Tabs
