@@ -28,9 +28,9 @@ const handleChange = (event, newValue) => {
 return (
 	<div
 	style={{
-        alignContent:'center',
-		alignSelf:'center',
-        
+        justifyContent:'center',
+        alignItems:'center',
+		        
 	}}
 	>
 	<h2>
@@ -41,7 +41,7 @@ return (
 		style={{
 		flexGrow: 1,
 		maxWidth: 500,
-        alignSelf:'center'
+        
 		}}
 	>
 		<Tabs
@@ -50,7 +50,7 @@ return (
 		variant="fullWidth"
 		indicatorColor="primary"
 		textColor="primary"
-		aria-label="icon tabs example"
+		aria-label="Contacts"
 		>
 		<Tab icon={<PhoneIcon />} aria-label="phone" />
 		<Tab icon={<PersonPinIcon />} aria-label="person" />
